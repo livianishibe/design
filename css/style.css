@@ -10,7 +10,7 @@ body
     font-style: italic;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1080px;
+    max-width: 500px;
 }   
 
 @media screen and (max-width: 600px) {
