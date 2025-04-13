@@ -10,6 +10,7 @@ body
     font-style: italic;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1080px;
     
 }   
 
