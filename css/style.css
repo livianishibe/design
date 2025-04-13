@@ -1,0 +1,87 @@
+body
+{
+    padding: 25px 140px 0px 25px;
+    font-family: 'Crimson Text', serif, Arial;
+    color: #ffffff;
+    font-size: 32px;
+    background-image: url('../img/background2019.jpg');
+    background-color: #000000;
+    font-weight: 400;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}   
+
+@media screen and (max-width: 600px) {
+  .box:hover .info {
+    display: none;
+  }
+}
+
+h1
+{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.copy
+{
+    font-weight: 600;
+    display: inline;
+}
+
+.emoji
+{
+    font-family: Arial;
+    display: inline-block;
+}
+
+.kozuka
+{
+    font-family: kozuka-gothic-pr6n, sans-serif;
+    text-decoration: none;
+    display:inline;
+    font-weight: 200;
+}
+
+a
+{
+    border-bottom: 1px solid currentColor;
+    color:white;
+    text-decoration: none;
+}
+
+
+.box .info
+{
+    background:black;
+    border: 1px solid white;
+    display:none;
+    padding: 10px;
+    position: absolute; 
+    top:20px;
+    left:10px;
+    font-size: 12px;
+    width: 200px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.box
+{
+    position: relative;
+    display:inline;
+}
+
+.box:hover .info{
+    display:inline;
+}
+
+.email
+{
+    font-weight: 500;
+}
